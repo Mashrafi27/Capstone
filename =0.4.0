@@ -1,0 +1,116 @@
+Channels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/mmm9886/miniconda3
+
+  added / updated specs:
+    - imgaug
+
+
+The following NEW packages will be INSTALLED:
+
+  aom                pkgs/main/linux-64::aom-3.6.0-h6a678d5_0 
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  blosc              pkgs/main/linux-64::blosc-1.21.3-h6a678d5_0 
+  brotli             pkgs/main/linux-64::brotli-1.0.9-h5eee18b_8 
+  brotli-bin         pkgs/main/linux-64::brotli-bin-1.0.9-h5eee18b_8 
+  brunsli            pkgs/main/linux-64::brunsli-0.1-h2531618_0 
+  cairo              pkgs/main/linux-64::cairo-1.16.0-hb05425b_5 
+  cfitsio            pkgs/main/linux-64::cfitsio-3.470-h5893167_7 
+  charls             pkgs/main/linux-64::charls-2.2.0-h2531618_0 
+  contourpy          pkgs/main/linux-64::contourpy-1.2.0-py312hdb19cb5_0 
+  cycler             pkgs/main/noarch::cycler-0.11.0-pyhd3eb1b0_0 
+  cyrus-sasl         pkgs/main/linux-64::cyrus-sasl-2.1.28-h52b45da_1 
+  dav1d              pkgs/main/linux-64::dav1d-1.2.1-h5eee18b_0 
+  dbus               pkgs/main/linux-64::dbus-1.13.18-hb2f20db_0 
+  eigen              pkgs/main/linux-64::eigen-3.4.0-hdb19cb5_0 
+  ffmpeg             pkgs/main/linux-64::ffmpeg-4.2.2-h20bf706_0 
+  fontconfig         pkgs/main/linux-64::fontconfig-2.14.1-h55d465d_3 
+  fonttools          pkgs/main/linux-64::fonttools-4.51.0-py312h5eee18b_0 
+  freetype           pkgs/main/linux-64::freetype-2.12.1-h4a9f257_0 
+  geos               pkgs/main/linux-64::geos-3.8.0-he6710b0_0 
+  giflib             pkgs/main/linux-64::giflib-5.2.2-h5eee18b_0 
+  glib               pkgs/main/linux-64::glib-2.78.4-h6a678d5_0 
+  glib-tools         pkgs/main/linux-64::glib-tools-2.78.4-h6a678d5_0 
+  gmp                pkgs/main/linux-64::gmp-6.2.1-h295c915_3 
+  gnutls             pkgs/main/linux-64::gnutls-3.6.15-he1e5248_0 
+  graphite2          pkgs/main/linux-64::graphite2-1.3.14-h295c915_1 
+  gst-plugins-base   pkgs/main/linux-64::gst-plugins-base-1.14.1-h6a678d5_1 
+  gstreamer          pkgs/main/linux-64::gstreamer-1.14.1-h5eee18b_1 
+  harfbuzz           pkgs/main/linux-64::harfbuzz-4.3.0-hf52aaf7_2 
+  hdf5               pkgs/main/linux-64::hdf5-1.12.1-h2b7332f_3 
+  imagecodecs        pkgs/main/linux-64::imagecodecs-2023.1.23-py312h81b8100_1 
+  imageio            pkgs/main/linux-64::imageio-2.33.1-py312h06a4308_0 
+  imgaug             pkgs/main/noarch::imgaug-0.4.0-pyhd3eb1b0_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306 
+  jpeg               pkgs/main/linux-64::jpeg-9e-h5eee18b_3 
+  jxrlib             pkgs/main/linux-64::jxrlib-1.1-h7b6447c_2 
+  kiwisolver         pkgs/main/linux-64::kiwisolver-1.4.4-py312h6a678d5_0 
+  lame               pkgs/main/linux-64::lame-3.100-h7b6447c_0 
+  lazy_loader        pkgs/main/linux-64::lazy_loader-0.4-py312h06a4308_0 
+  lcms2              pkgs/main/linux-64::lcms2-2.12-h3be6417_0 
+  lerc               pkgs/main/linux-64::lerc-3.0-h295c915_0 
+  libabseil          pkgs/main/linux-64::libabseil-20240116.2-cxx17_h6a678d5_0 
+  libaec             pkgs/main/linux-64::libaec-1.0.4-he6710b0_1 
+  libavif            pkgs/main/linux-64::libavif-0.11.1-h5eee18b_0 
+  libbrotlicommon    pkgs/main/linux-64::libbrotlicommon-1.0.9-h5eee18b_8 
+  libbrotlidec       pkgs/main/linux-64::libbrotlidec-1.0.9-h5eee18b_8 
+  libbrotlienc       pkgs/main/linux-64::libbrotlienc-1.0.9-h5eee18b_8 
+  libclang           pkgs/main/linux-64::libclang-14.0.6-default_hc6dbbc7_1 
+  libclang13         pkgs/main/linux-64::libclang13-14.0.6-default_he11475f_1 
+  libcups            pkgs/main/linux-64::libcups-2.4.2-h2d74bed_1 
+  libdeflate         pkgs/main/linux-64::libdeflate-1.17-h5eee18b_1 
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-11.2.0-h00389a5_1 
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1 
+  libglib            pkgs/main/linux-64::libglib-2.78.4-hdc74915_0 
+  libiconv           pkgs/main/linux-64::libiconv-1.16-h5eee18b_3 
+  libidn2            pkgs/main/linux-64::libidn2-2.3.4-h5eee18b_0 
+  libllvm14          pkgs/main/linux-64::libllvm14-14.0.6-hecde1de_4 
+  libopus            pkgs/main/linux-64::libopus-1.3.1-h5eee18b_1 
+  libpng             pkgs/main/linux-64::libpng-1.6.39-h5eee18b_0 
+  libpq              pkgs/main/linux-64::libpq-12.20-hdbd6064_0 
+  libprotobuf        pkgs/main/linux-64::libprotobuf-4.25.3-he621ea3_0 
+  libtasn1           pkgs/main/linux-64::libtasn1-4.19.0-h5eee18b_0 
+  libtiff            pkgs/main/linux-64::libtiff-4.5.1-h6a678d5_0 
+  libunistring       pkgs/main/linux-64::libunistring-0.9.10-h27cfd23_0 
+  libvpx             pkgs/main/linux-64::libvpx-1.7.0-h439df22_0 
+  libwebp-base       pkgs/main/linux-64::libwebp-base-1.3.2-h5eee18b_1 
+  libxcb             pkgs/main/linux-64::libxcb-1.15-h7f8727e_0 
+  libxkbcommon       pkgs/main/linux-64::libxkbcommon-1.0.1-h097e994_2 
+  libzopfli          pkgs/main/linux-64::libzopfli-1.0.3-he6710b0_0 
+  matplotlib-base    pkgs/main/linux-64::matplotlib-base-3.9.2-py312h66fe004_0 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h213fc3f_46344 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py312h5eee18b_1 
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.11-py312h5eee18b_0 
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.8-py312h526ad5a_0 
+  mysql              pkgs/main/linux-64::mysql-5.7.24-h721c034_2 
+  nettle             pkgs/main/linux-64::nettle-3.7.3-hbbd107a_1 
+  networkx           pkgs/main/linux-64::networkx-3.3-py312h06a4308_0 
+  numpy              pkgs/main/linux-64::numpy-1.26.4-py312hc5e2394_0 
+  numpy-base         pkgs/main/linux-64::numpy-base-1.26.4-py312h0da6c21_0 
+  opencv             pkgs/main/linux-64::opencv-4.10.0-py312h907dce5_0 
+  openh264           pkgs/main/linux-64::openh264-2.1.1-h4ff587b_0 
+  openjpeg           pkgs/main/linux-64::openjpeg-2.5.2-he7f1fd0_0 
+  pillow             pkgs/main/linux-64::pillow-10.4.0-py312h5eee18b_0 
+  pixman             pkgs/main/linux-64::pixman-0.40.0-h7f8727e_1 
+  pyparsing          pkgs/main/linux-64::pyparsing-3.1.2-py312h06a4308_0 
+  python-dateutil    pkgs/main/linux-64::python-dateutil-2.9.0post0-py312h06a4308_2 
+  qt-main            pkgs/main/linux-64::qt-main-5.15.2-h53bd1ea_10 
+  scikit-image       pkgs/main/linux-64::scikit-image-0.24.0-py312h526ad5a_0 
+  scipy              pkgs/main/linux-64::scipy-1.13.1-py312hc5e2394_0 
+  shapely            pkgs/main/linux-64::shapely-2.0.5-py312h1789038_0 
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 
+  snappy             pkgs/main/linux-64::snappy-1.2.1-h6a678d5_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  tifffile           pkgs/main/linux-64::tifffile-2023.4.12-py312h06a4308_0 
+  unicodedata2       pkgs/main/linux-64::unicodedata2-15.1.0-py312h5eee18b_0 
+  x264               pkgs/main/linux-64::x264-1!157.20191217-h7b6447c_0 
+  zfp                pkgs/main/linux-64::zfp-1.0.0-h6a678d5_0 
+
+
+Proceed ([y]/n)? 
