@@ -7,6 +7,11 @@ Poster: `poster.pdf`
 
 ![Capstone poster](poster.png)
 
+## Results and Demo
+![Final results](FinalResult.jpg)
+
+![Demo](Demo2.png)
+
 ## Project Summary
 - Joint training for detection + lane segmentation to share features and reduce compute.
 - Experiments with cross-stitch layers and PCGrad/FAMO-style conflict handling.
@@ -38,3 +43,14 @@ Adjust configs and checkpoints in `configs/` and the relevant `mains/*.py` scrip
 
 ## Artifacts
 The poster and report are included for quick project context. The presentation PDF is intentionally ignored via `.gitignore`.
+
+## Acknowledgments and Citations
+- CLRNet (lane detection backbone): https://github.com/Turoad/CLRNet
+- Ultralytics YOLOv8 (object detection backbone): https://github.com/ultralytics/ultralytics
+- PCGrad (gradient conflict handling): https://github.com/WeiChengTseng/Pytorch-PCGrad
+- Object Detection Metrics utilities: https://github.com/rafaelpadilla/Object-Detection-Metrics
+- timm EMA utilities: https://github.com/rwightman/pytorch-image-models
+- DIoU-SSD utilities: https://github.com/Zzh-tju/DIoU-SSD-pytorch
+- Kornia focal loss reference: https://github.com/kornia/kornia
+- Unsupervised LLAMAS utilities: https://github.com/karstenBehrendt/unsupervised_llamas
+- py-faster-rcnn NMS reference: https://github.com/rbgirshick/py-faster-rcnn
