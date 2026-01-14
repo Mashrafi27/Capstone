@@ -1,22 +1,19 @@
 # Optimizing Vision-Based Object Detection and Lane Segmentation for ADAS
 
-Multi-task vision stack that combines object detection and lane segmentation for advanced driver assistance systems (ADAS), with a focus on optimization for resource-constrained devices. The implementation builds on YOLO-style detection and CLRNet-style lane detection, exploring multi-task optimization strategies such as cross-stitching and gradient balancing.
+This capstone explores a multi-task vision stack for ADAS that combines object detection and lane segmentation, aiming to keep accuracy while reducing cost on resource-constrained devices. The system builds on YOLO-style detection and CLRNet-style lane detection, and studies multi-task training strategies such as cross-stitching and gradient conflict handling.
+
+Quick reads: `report.pdf` · `poster.pdf`
 
 ![Capstone poster](poster.png)
 
-## Abstract
-- Joint training for detection + lane segmentation to share features and reduce compute.
-- Experiments with cross-stitch layers and PCGrad/FAMO-style conflict handling.
-- Evaluation artifacts and logs live under `runs/` and `scores/`.
+Key results and a qualitative demo are shown below.
 
-## Results
 ![Final results](FinalResult.jpg)
 
-## Qualitative Demo
-![Demo](Demo2.png)
+![Demo](demo.gif)
 
-## Method Overview
-The implementation builds on YOLO-style detection and CLRNet-style lane detection, with multi-task coupling via cross-stitch layers and gradient conflict mitigation.
+## Method
+Two task-specific heads share features through multi-task coupling, with experiments on cross-stitch layers and PCGrad/FAMO-style optimization.
 
 ## Repository Structure
 - `main.py`: main experiment entry point used during development.
