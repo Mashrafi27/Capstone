@@ -7,15 +7,19 @@ Poster: `poster.pdf`
 
 ![Capstone poster](poster.png)
 
-## Results and Demo
-![Final results](FinalResult.jpg)
-
-![Demo](Demo2.png)
-
-## Project Summary
+## Abstract
 - Joint training for detection + lane segmentation to share features and reduce compute.
 - Experiments with cross-stitch layers and PCGrad/FAMO-style conflict handling.
 - Evaluation artifacts and logs live under `runs/` and `scores/`.
+
+## Results
+![Final results](FinalResult.jpg)
+
+## Qualitative Demo
+![Demo](Demo2.png)
+
+## Method Overview
+The implementation builds on YOLO-style detection and CLRNet-style lane detection, with multi-task coupling via cross-stitch layers and gradient conflict mitigation.
 
 ## Repository Structure
 - `main.py`: main experiment entry point used during development.
