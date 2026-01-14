@@ -2,9 +2,6 @@
 
 Multi-task vision stack that combines object detection and lane segmentation for advanced driver assistance systems (ADAS), with a focus on optimization for resource-constrained devices. The implementation builds on YOLO-style detection and CLRNet-style lane detection, exploring multi-task optimization strategies such as cross-stitching and gradient balancing.
 
-Report: `report.pdf`  
-Poster: `poster.pdf`
-
 ![Capstone poster](poster.png)
 
 ## Abstract
