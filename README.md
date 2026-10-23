@@ -4,9 +4,9 @@
 
 This capstone explores a multi-task vision stack for ADAS that combines object detection and lane segmentation, aiming to keep accuracy while reducing cost on resource-constrained devices. The system builds on YOLO-style detection and CLRNet-style lane detection, and studies multi-task training strategies such as cross-stitching and gradient conflict handling.
 
-![Capstone poster](poster.png)
+Quick reads: [Final report](report.pdf) 
 
-Quick reads: [Final report (PDF)](report.pdf) 
+![Capstone poster](poster.png)
 
 <img src="FinalResult.jpg" alt="Final results" width="720">
 
